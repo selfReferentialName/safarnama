@@ -8,6 +8,7 @@ variables:
   LC_ALL: C.UTF-8
 
 before_script:
+  - gem install bundle jekyll
   - bundle install
 
 test:
